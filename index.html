@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+      }
+
+      #menu {
+        height: 50px;
+        width: 100%;
+        background-color:rgba(24, 15, 15, 1)
+      }
+      .navigation{
+        height: 50px;
+      }
+    .navigation a {
+        display: inline-block;
+        padding: 10px;
+        margin: 0 10px;
+        align-items: center;
+        text-decoration: none;
+        color:white ;
+      }
+
+      .Login{
+        float: right;
+      }
+
+      #menu .navigation a:hover{
+        height: 30px;
+        color: white;
+        background-color: gray;
+      }
+
+      #main{
+        height: 800px;
+      }
+      .left {
+      width:calc(25% - 10px) ;
+      height: 500px;
+      padding: 5px;       
+       height: 800px;
+       text-align: center;
+     background-color:	gainsboro;
+      float: left;
+    }
+    .left h3{
+        text-decoration: none;
+        margin-right: 160px;
+        padding: 20px;
+        align-items: center;
+    }
+    .left a{
+        text-decoration: none;
+    }
+    .mid{
+      width:calc(50% - 20px) ;
+      height: 800px;
+      padding: 10px;
+      float: left;
+    }
+    .right {
+      width:calc(25% - 10px) ;
+      height: 500px;
+      padding: 5px;       
+       height: 800px;
+     background-color:	gainsboro;
+     display: inline-block;
+      float: left;
+    }
+    .box{
+        width: 250px;
+        height: 95px;
+        border: 1px solid;
+        margin: 20px 0 30px 40px;
+       padding: 10px;
+       text-align: center;
+    }
+    #footer{
+        position: fixed;
+        bottom: 0;
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        background-color:rgba(24, 15, 15, 1)
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="tong">
+        <div id="menu">
+            <div class="navigation">
+              <a href="#">Logo</a>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Projects</a>
+              <a href="#">Contact</a>
+              <a class="Login" href="#">Login</a>
+            </div>
+      
+          <div id="main">
+            <div class="left ">
+                <h3><a href="#">Link</a></h3>
+                <h3><a href="#">Link</a></h3>
+                <h3><a href="#">Link</a></h3>
+            </div>
+      
+            <div class="mid ">
+                <h1 style="font-size: 50px;margin-top: 10px;">Welcome</h1>
+                <p style="font-size: 20px;margin-top: 10px;margin-bottom: 10px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique pariatur tempora perferendis doloremque illo, ex, doloribus temporibus, exercitationem fuga voluptatum cupiditate alias tenetur. Nemo dolore accusamus nesciunt impedit ipsa necessitatibus?</p><hr>
+                <h2 style="margin-top: 10px;font-size: 30px;">Test</h2>
+                <p style="font-size: 20px;margin-top: 10px;margin-bottom: 10px;">lorem ipsum...</p>
+            </div>
+      
+            <div class="right">
+                <div class="box">
+                    ADS
+                </div>
+                <div class="box">
+                    ADS
+                </div>
+            </div>
+          </div>
+      
+          <div id="footer">
+            <h2 style="color: white;">Footer Text</h2>
+          </div>
+    </div>
+
+  </body>
+</html>
